@@ -1,1 +1,2 @@
-.
+console.log("Contenido del body cargado");
+
