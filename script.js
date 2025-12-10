@@ -1,3 +1,8 @@
+
+document.getElementById("year").textContent = new Date().getFullYear();
+
+console.log("Contenido del body cargado");
+
 console.log("Header cargado correctamente");
 
 // Selección de elementos
@@ -21,3 +26,4 @@ window.addEventListener("click", (e) => {
         modal.style.display = "none";
     }
 });
+
