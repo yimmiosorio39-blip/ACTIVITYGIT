@@ -1,3 +1,6 @@
+
+console.log("Contenido del body cargado");
+
 console.log("Header cargado correctamente");
 
 // Selección de elementos
