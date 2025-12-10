@@ -1,4 +1,11 @@
 
+.footer {
+  background-color: #222;
+  color: #fff;
+  padding: 20px 0;
+  margin-top: 40px;
+
+
 #contenido {
     width: 80%;
     margin: 30px auto;
@@ -142,24 +149,26 @@ nav ul li a:hover {
     flex-direction: column;
     gap: 10px;
     margin-top: 10px;
+
 }
 
-.modal-content input {
-    padding: 10px;
-    border-radius: 8px;
-    border: 1px solid #aaa;
+.footer-container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
-.btn-login {
-    background: #0a74da;
-    color: white;
-    padding: 10px;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    margin-top: 10px;
+.footer-nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 15px;
+  transition: 0.3s;
 }
 
-.btn-login:hover {
-    background: #005bb5;
+.footer-nav a:hover {
+  color: #00aaff;
 }
